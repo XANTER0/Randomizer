@@ -9,7 +9,7 @@ function compCrossword(strLetters, length, rounds) {
     let res = '';
     let result = [];
 
-    for(let j = 0; j <= rounds; j++) {
+    for(let j = 0; j < rounds; j++) {
         for(let i = 0; i <= length; i++) {
             if(res.length != length) {
                 res += strLetters[Random(0, strLetters.length -1)];
